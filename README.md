@@ -135,7 +135,7 @@ The tests cover formula equivalence, gradients, delayed CMCA activation, ignored
 
 The main state-dict keys for the encoders, projection heads, and decoder are preserved. The checkpoint loader accepts plain state dictionaries, dictionaries wrapped under `state_dict` or `model`, and keys prefixed with `module.`. Only the legacy `encoder.visual.positional_embedding_new` cache is discarded because it can be regenerated; all other keys are checked strictly. Older COCO baseline checkpoints can initialize the model, but they are not checkpoints trained with CMCA enabled.
 
-This repository does not include pretrained encoder weights, DINOv2 source, datasets, or full experimental checkpoints. Passing the tests verifies the software workflow; it does not replace training and accuracy evaluation with the full encoders and datasets. See [REFACTOR_REPORT.md](REFACTOR_REPORT.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for changes, source attribution, and validation scope.
+This repository does not include pretrained encoder weights, DINOv2 source, datasets, or full experimental checkpoints. Passing the tests verifies the software workflow; it does not replace training and accuracy evaluation with the full encoders and datasets.
 
 ## Project Structure
 
@@ -152,3 +152,9 @@ clip/                  CLIP dense-token implementation
 pytorch_grad_cam/      Online CAM generation
 tests/                 Regression and integration tests
 ```
+
+## Acknowledgements
+
+Our implementation builds upon [WeCLIP+](https://github.com/zbf1991/WeCLIP/tree/main/WeCLIP%2B), the baseline introduced in [Frozen CLIP-DINO: A Strong Backbone for Weakly Supervised Semantic Segmentation](https://ieeexplore.ieee.org/document/10891864) (TPAMI 2025). We thank the authors for making their code publicly available.
+
+We also thank the authors of [AFA](https://github.com/rulixiang/afa) and [CLIP-ES](https://github.com/linyq2117/CLIP-ES) for the components inherited through the baseline, and the authors of [CLIP](https://github.com/openai/CLIP), [DINOv2](https://github.com/facebookresearch/dinov2), and [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) for their contributions to the community.
