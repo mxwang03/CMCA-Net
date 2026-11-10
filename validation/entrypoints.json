@@ -1,0 +1,32 @@
+[
+  {
+    "entry": "scripts/dist_clip_voc.py",
+    "exit_code": 0,
+    "output": "usage: dist_clip_voc.py [-h] [--config CONFIG] [--work_dir WORK_DIR]\n                        [--radius RADIUS] [--seed SEED]\n\nTrain CMCA-Net\n\noptional arguments:\n  -h, --help           show this help message and exit\n  --config CONFIG\n  --work_dir WORK_DIR\n  --radius RADIUS\n  --seed SEED\n"
+  },
+  {
+    "entry": "scripts/dist_clip_coco.py",
+    "exit_code": 0,
+    "output": "usage: dist_clip_coco.py [-h] [--config CONFIG] [--work_dir WORK_DIR]\n                         [--radius RADIUS] [--seed SEED]\n\nTrain CMCA-Net\n\noptional arguments:\n  -h, --help           show this help message and exit\n  --config CONFIG\n  --work_dir WORK_DIR\n  --radius RADIUS\n  --seed SEED\n"
+  },
+  {
+    "entry": "test_msc_flip_voc.py",
+    "exit_code": 0,
+    "output": "usage: test_msc_flip_voc.py [-h] [--config CONFIG] --model_path MODEL_PATH\n                            [--input INPUT] [--work_dir WORK_DIR]\n                            [--eval_set EVAL_SET] [--device DEVICE]\n                            [--scales SCALES [SCALES ...]] [--crf]\n\nCMCA-Net semantic segmentation inference\n\noptional arguments:\n  -h, --help            show this help message and exit\n  --config CONFIG\n  --model_path MODEL_PATH\n                        CMCA-Net state_dict checkpoint\n  --input INPUT         Optional single RGB image; no annotations required\n  --work_dir WORK_DIR\n  --eval_set EVAL_SET\n  --device DEVICE\n  --scales SCALES [SCALES ...]\n  --crf                 Enable optional DenseCRF\n"
+  },
+  {
+    "entry": "test_msc_flip_coco.py",
+    "exit_code": 0,
+    "output": "usage: test_msc_flip_coco.py [-h] [--config CONFIG] --model_path MODEL_PATH\n                             [--input INPUT] [--work_dir WORK_DIR]\n                             [--eval_set EVAL_SET] [--device DEVICE]\n                             [--scales SCALES [SCALES ...]] [--crf]\n\nCMCA-Net semantic segmentation inference\n\noptional arguments:\n  -h, --help            show this help message and exit\n  --config CONFIG\n  --model_path MODEL_PATH\n                        CMCA-Net state_dict checkpoint\n  --input INPUT         Optional single RGB image; no annotations required\n  --work_dir WORK_DIR\n  --eval_set EVAL_SET\n  --device DEVICE\n  --scales SCALES [SCALES ...]\n  --crf                 Enable optional DenseCRF\n"
+  },
+  {
+    "entry": "test_msc_flip_seg.py",
+    "exit_code": 0,
+    "output": "usage: test_msc_flip_seg.py [-h] [--config CONFIG] --model_path MODEL_PATH\n                            [--input INPUT] [--work_dir WORK_DIR]\n                            [--eval_set EVAL_SET] [--device DEVICE]\n                            [--scales SCALES [SCALES ...]] [--crf]\n\nCMCA-Net semantic segmentation inference\n\noptional arguments:\n  -h, --help            show this help message and exit\n  --config CONFIG\n  --model_path MODEL_PATH\n                        CMCA-Net state_dict checkpoint\n  --input INPUT         Optional single RGB image; no annotations required\n  --work_dir WORK_DIR\n  --eval_set EVAL_SET\n  --device DEVICE\n  --scales SCALES [SCALES ...]\n  --crf                 Enable optional DenseCRF\n"
+  },
+  {
+    "entry": "visualize_cmca_stages.py",
+    "exit_code": 0,
+    "output": "usage: visualize_cmca_stages.py [-h] [--config CONFIG] --checkpoint CHECKPOINT\n                                --ids IDS [IDS ...] [--output-dir OUTPUT_DIR]\n                                [--gt-dir GT_DIR] [--vmin VMIN] [--vmax VMAX]\n\noptional arguments:\n  -h, --help            show this help message and exit\n  --config CONFIG\n  --checkpoint CHECKPOINT\n  --ids IDS [IDS ...]\n  --output-dir OUTPUT_DIR\n  --gt-dir GT_DIR\n  --vmin VMIN\n  --vmax VMAX\n"
+  }
+]

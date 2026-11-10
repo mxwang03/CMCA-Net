@@ -1,0 +1,20 @@
+# Python 3.8+; install the CUDA build of torch/torchvision for your GPU first.
+torch>=2.1,<2.5
+torchvision>=0.16,<0.20
+numpy>=1.22,<2
+Pillow>=9
+opencv-python>=4.5
+omegaconf>=2.2,<3
+imageio>=2.19
+matplotlib>=3.5
+scikit-learn>=1.0
+scipy>=1.7
+tqdm>=4.64
+ftfy>=6
+regex
+packaging>=21
+lxml>=4.9
+ttach>=0.0.3
+tensorboard>=2.10
+# Local DINOv2 repository imports timm for some model variants.
+timm>=0.6.12,<1

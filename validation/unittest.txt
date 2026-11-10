@@ -1,0 +1,42 @@
+test_configuration_paths_are_project_relative (test_cmca.ConsensusTests) ... ok
+test_gradients_and_spatial_propagation (test_cmca.ConsensusTests) ... ok
+test_losses_ignore_without_target_mutation (test_cmca.ConsensusTests) ... ok
+test_matches_original_voc_formula (test_cmca.ConsensusTests) ... ok
+test_zero_and_invalid_inputs (test_cmca.ConsensusTests) ... ok
+test_checkpoint_strict_loading_and_ddp_prefix (test_cmca.NetworkTests) ... D:\tool\Anaconda\envs\weclip\lib\site-packages\torchvision\transforms\_functional_pil.py:242: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  interpolation: int = Image.BILINEAR,
+D:\tool\Anaconda\envs\weclip\lib\site-packages\torchvision\transforms\_functional_pil.py:288: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  interpolation: int = Image.NEAREST,
+D:\tool\Anaconda\envs\weclip\lib\site-packages\torchvision\transforms\_functional_pil.py:304: DeprecationWarning: NEAREST is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.NEAREST or Dither.NONE instead.
+  interpolation: int = Image.NEAREST,
+D:\tool\Anaconda\envs\weclip\lib\site-packages\torchvision\transforms\_functional_pil.py:321: DeprecationWarning: BICUBIC is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BICUBIC instead.
+  interpolation: int = Image.BICUBIC,
+ok
+test_real_cam_par_losses_backward_and_warmup (test_cmca.NetworkTests) ... ok
+test_training_validation_save_and_inference_entry_points (test_cmca.NetworkTests) ... C:\Users\Irene\Documents\����̨\CMCA\datasets\transforms.py:41: DeprecationWarning: BILINEAR is deprecated and will be removed in Pillow 10 (2023-07-01). Use Resampling.BILINEAR instead.
+  new_image = Image.fromarray(image.astype(np.uint8)).resize(new_scale, resample=Image.BILINEAR)
+
+  0%|                                                                         | 0/1 [00:00<?, ?it/s]C:\Users\Irene\Documents\����̨\CMCA\utils\evaluate.py:23: RuntimeWarning: invalid value encountered in divide
+  acc_cls = np.diag(hist) / hist.sum(axis=1)
+C:\Users\Irene\Documents\����̨\CMCA\utils\evaluate.py:25: RuntimeWarning: invalid value encountered in divide
+  iu = np.diag(hist) / (hist.sum(axis=1) + hist.sum(axis=0) - np.diag(hist))
+
+100%|����������������������������������������������������������������������������������������������������������������������������������| 1/1 [00:00<00:00, 36.56it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:00<00:00, 63.50it/s]
+Saved predictions to C:\Users\Irene\AppData\Local\Temp\tmpl8gjowo8\output\val
+
+  0%|                                                                         | 0/1 [00:00<?, ?it/s]
+100%|����������������������������������������������������������������������������������������������������������������������������������| 1/1 [00:00<00:00, 80.50it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|��������������������| 1/1 [00:00<00:00, 58.72it/s]
+ok
+test_voc_coco_inference_shapes_and_freezing (test_cmca.NetworkTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.938s
+
+OK
+Saved predictions to C:\Users\Irene\AppData\Local\Temp\tmpgde4_eh7\output\val

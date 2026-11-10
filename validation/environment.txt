@@ -1,0 +1,23 @@
+OK dependency torch 2.4.1+cu121
+OK dependency torchvision 0.19.1+cu121
+OK dependency numpy 1.23.5
+OK dependency PIL 9.3.0
+OK dependency cv2 4.6.0
+OK dependency omegaconf 2.0.6
+OK dependency imageio.v2 
+OK dependency matplotlib 3.6.2
+OK dependency sklearn 1.2.0
+OK dependency scipy 1.10.1
+OK dependency tqdm 4.62.3
+OK dependency ftfy 6.2.3
+OK dependency regex 2.5.125
+OK dependency lxml 4.9.2
+OK dependency ttach 
+OK dependency tensorboard 2.14.0
+OK dependency timm 0.6.12
+CUDA available: True
+FAIL Missing asset: C:\Users\Irene\Documents\����̨\CMCA\pretrained\ViT-B-16.pt
+FAIL Missing asset: C:\Users\Irene\Documents\����̨\CMCA\pretrained\dinov2\hubconf.py
+FAIL Missing asset: C:\Users\Irene\Documents\����̨\CMCA\pretrained\dinov2_vits14_pretrain.pth
+
+exit_code=1 (default pretrained paths are intentionally unpopulated)
